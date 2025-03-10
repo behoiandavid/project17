@@ -678,6 +678,7 @@ a {
 .footer-block span:last-child {
   font-family: Roboto;
   font-size: 11px;
+  text-align: center;
   line-height: 20px;
   font-weight: 700;
   color: #FFFFFF;
@@ -687,7 +688,7 @@ a {
   width: 75px;
   height: 2px;
   bottom: 45px;
-  left: 18px;
+  left: 33px;
   background-color: #FFFFFF;
   position: absolute;
 }
@@ -695,6 +696,7 @@ a {
   position: relative;
   font-family: Roboto;
   font-size: 16px;
+  text-align: center;
   line-height: 20px;
   font-weight: 100;
   color: #637588;
@@ -1210,12 +1212,11 @@ a {
     left: 0px;
   }
   .nav-mobile-descriptions {
-    width: 100px;
+    width: 160px;
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: space-around;
+    flex-direction: row;
+    justify-content: space-evenly;
     gap: 8%;
     line-height: 30px;
   }
@@ -1282,7 +1283,7 @@ a {
     text-align: center;
     line-height: 40px;
     font-family: "Roboto Slab";
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 300;
     color: #FFFFFF;
     animation: hiden5 2s ease forwards;
@@ -1303,8 +1304,8 @@ a {
     gap: 20px;
   }
   .section2-header-button button {
-    width: 170px;
-    height: 40px;
+    width: 150px;
+    height: 35px;
     font-size: 18px;
     line-height: 21.09px;
     color: #FFFFFF;
