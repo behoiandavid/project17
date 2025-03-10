@@ -1207,7 +1207,7 @@ a {
   .mobile-navigation {
     display: block;
     position: relative;
-    left: calc(55% - 216px);
+    left: calc(62% - 216px);
   }
   .nav-mobile {
     display: none;
