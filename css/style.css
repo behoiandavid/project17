@@ -1202,7 +1202,7 @@ a {
   .mobile-navigation {
     display: block;
     position: relative;
-    left: calc(38% - 216px);
+    left: calc(55% - 216px);
   }
   .nav-mobile {
     display: none;
@@ -1270,7 +1270,7 @@ a {
     }
   }
   .section2-header {
-    padding: 45px 10px 45px 10px;
+    padding: 0 10px 16px 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -1417,8 +1417,8 @@ a {
   }
   .section1-block-button button {
     font-family: Roboto;
-    width: 490px;
-    height: 60px;
+    width: 350px;
+    height: 40px;
     font-size: 18px;
     color: #FFFFFF;
     background: rgba(45, 54, 81, 0.8);
@@ -1476,6 +1476,7 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     gap: 5px;
   }
   .section3-form input:focus {
@@ -1483,7 +1484,7 @@ a {
     outline: none;
   }
   .section3-form input {
-    width: 525px;
+    width: 350px;
     height: 60px;
     background: rgba(255, 255, 255, 0.0509803922);
     border-bottom: solid 2px #FFFFFF;
@@ -1521,8 +1522,8 @@ a {
   .section3-form button {
     background: rgba(255, 255, 255, 0.0509803922);
     border-bottom: solid 2px #FFFFFF;
-    width: 525px;
-    height: 60px;
+    width: 350px;
+    height: 40px;
     font-size: 18px;
     color: #FFFFFF;
     transition: 0.3s;
@@ -1554,7 +1555,7 @@ a {
     grid-template-columns: 1fr;
     gap: 16px;
     height: 100%;
-    width: 492px;
+    width: 350px;
     margin: 0 auto;
     outline: 2px solid red;
   }
@@ -1581,7 +1582,7 @@ a {
   }
   .section4-posts-grid .post .posts-grid-img {
     height: 300px;
-    width: 492px;
+    width: 350px;
   }
   .section4-posts-grid .post .posts-grid-img img {
     height: 100%;
@@ -1589,7 +1590,7 @@ a {
     object-fit: cover;
   }
   .section4-posts-grid .post .posts-grid-text {
-    width: 492px;
+    width: 350px;
     height: 270px;
     padding: 10px 10px;
     display: flex;
