@@ -1184,6 +1184,9 @@ a {
     flex-direction: row;
     align-items: center;
   }
+  .section1-logo img {
+    width: 100px;
+  }
   .section1-logo {
     transform: translateX(-100px);
     animation: hiden1 2s ease forwards;
@@ -1212,12 +1215,12 @@ a {
     left: 0px;
   }
   .nav-mobile-descriptions {
-    width: 160px;
+    width: 222px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-evenly;
-    gap: 8%;
+    gap: 5%;
     line-height: 30px;
   }
   .checkbtn {
