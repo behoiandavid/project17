@@ -392,6 +392,7 @@ a {
         align-items: center;
         position: relative;
         transition: 0.3s;
+        background-size: cover;
 
         h2 {
             font-family: Roboto;
@@ -1322,6 +1323,13 @@ a {
 }
 
 @media(min-width: 320px) and (max-width:599px) {
+
+    header {
+        background-image: url(../images/header-block.png);
+        object-fit: cover;
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
 
     .bg-opacity {
         background-color: $independence;
