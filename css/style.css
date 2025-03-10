@@ -1557,7 +1557,6 @@ a {
     height: 100%;
     width: 350px;
     margin: 0 auto;
-    outline: 2px solid red;
   }
   .section4-posts-grid div:nth-child(1) {
     grid-column: 1/1;
